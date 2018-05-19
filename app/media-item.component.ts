@@ -11,4 +11,7 @@ export class MediaItemComponent {
   wasWatched() {
     return true;
   }
+  onDelete() {
+    console.log('deleted')
+  }
 }
